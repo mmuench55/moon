@@ -1,0 +1,197 @@
+html {
+  font: 100%/1.15 sans-serif;
+  }
+
+body,
+figure {
+  margin: 0;
+  }
+
+ol,
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+  img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        }
+
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 2em;
+  }
+
+.max-width {
+    max-width: 60em;
+    margin: auto;
+  }
+
+.photo {
+  height: 0;
+  padding-bottom: 50%;
+  text-align: center;
+  vertical-align: middle;
+  background: #000;
+  overflow: hidden;
+}
+
+#earthrise img {
+    margin-top: -20%;
+    }
+
+header {
+  margin-bottom: -3em;
+  }
+
+header,
+nav{
+  text-align: center;
+  background: #000000;
+  padding: 1em;
+  }
+
+nav details {
+  list-style: none;
+  display: inline-block;
+  font: 1.1em "Arial", sans-serif;
+  letter-spacing: .01em;
+  vertical-align: top;
+  text-align: center;
+  padding: 0 2em;
+  margin: auto;
+  }
+
+nav {
+  padding: 0 2em;
+}
+
+  nav summary:before {
+   content: "☾";
+   color: #fff;
+   margin-left: -1.5em;
+  }
+
+#firstpage {
+    margin-left: .5em;
+    }
+
+#secondpage {
+    padding-left: 1em;
+    margin-left: -1em;
+}
+
+#earth {
+    margin-left: 1em;
+  }
+
+nav a{
+  font: .7em "Arial", sans-serif;
+  color: #fff;
+    }
+
+h1{
+      font: 6em "Arial Narrow", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: #fff;
+    }
+
+#page2 {
+      font: 3em "Arial Narrow", sans-serif;
+      margin-bottom: 1em;
+      }
+
+h2,
+h3,
+h4,
+h5  {
+    font-family: "Arial Narrow", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-left: .7em;
+      }
+
+#moon1,
+#earthrise{
+      margin-top: -1em;
+      padding: -1em;
+          }
+
+p {
+    font-family: "Arial", sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .3em;
+          }
+
+figcaption {
+    font: .7em "Arial";
+    text-align: center;
+    padding: .5em;
+    margin-left: -1.5em;
+}
+
+#decorate {
+    padding: -1em;
+    margin: -1em 0;
+}
+
+footer {
+  text-align: center;
+  background: #000;
+  margin-bottom: -2em;
+  }
+
+footer a{
+  color: #fff;
+  }
+
+footer p {
+  font: .7em "Arial";
+  color: #fff;
+  padding-bottom: 2em;
+}
+
+footer section {
+  background: #000;
+  margin-bottom: -3em;
+}
+
+div {
+  margin-top: -2em;
+  padding-bottom: 2em;
+  background: #000;
+}
+
+@media (min-width: 45em) {
+
+        #page2 {
+          font-size: 4em;
+          padding-left: 1em;
+          padding-right: 1em;
+          }
+
+        nav details{
+          font-size: 1.5em;}
+
+
+        section{
+          padding-left: 9em;
+          padding-right: 10em;}
+
+        #earthrise img {
+              margin-top: -10%;
+              }
+      }
+
+@media (min-width: 60em){
+      section{
+          padding-left: 11em;
+          padding-right: 12em;
+      }
+}
