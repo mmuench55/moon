@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Moon Light';
+    src: url("../fonts/moon_light-webfont.woff2") format("woff2"),
+         url("../fonts/moon_light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
-  font: 100%/1.15 sans-serif;
+  font: 100%/1.5 sans-serif;
   }
 
 body,
@@ -95,14 +103,14 @@ nav a{
     }
 
 h1{
-      font: 6em "Arial Narrow", sans-serif;
+      font: 6em "Moon Light", "Arial Narrow", sans-serif;
       text-transform: uppercase;
       letter-spacing: .1em;
       color: #fff;
     }
 
 #page2 {
-      font: 3em "Arial Narrow", sans-serif;
+      font: 3em "Moon Light", "Arial Narrow", sans-serif;
       margin-bottom: 1em;
       }
 
@@ -110,7 +118,7 @@ h2,
 h3,
 h4,
 h5  {
-    font-family: "Arial Narrow", sans-serif;
+    font-family: "Moon Light", "Arial Narrow", sans-serif;
     text-transform: uppercase;
     letter-spacing: .1em;
     margin-left: .7em;
