@@ -66,12 +66,10 @@ nav{
 nav details {
   list-style: none;
   display: inline-block;
-  font: 1.1em "Arial", sans-serif;
-  letter-spacing: .01em;
+  font: 1em/2 "Arial", sans-serif;
   vertical-align: top;
   text-align: center;
-  padding: 0 2em;
-  margin: auto;
+  margin-bottom: 3em;
   }
 
 nav {
@@ -90,7 +88,7 @@ nav {
 
 #secondpage {
     padding-left: 1em;
-    margin-left: -1em;
+    margin-left: 1em;
 }
 
 #earth {
@@ -103,7 +101,7 @@ nav a{
     }
 
 h1{
-      font: 6em "Moon Light", "Arial Narrow", sans-serif;
+      font: 5em "Moon Light", "Arial Narrow", sans-serif;
       text-transform: uppercase;
       letter-spacing: .1em;
       color: #fff;
@@ -121,7 +119,7 @@ h5  {
     font-family: "Moon Light", "Arial Narrow", sans-serif;
     text-transform: uppercase;
     letter-spacing: .1em;
-    margin-left: .7em;
+    margin-left: 0em;
       }
 
 #moon1,
@@ -177,7 +175,9 @@ div {
 }
 
 @media (min-width: 45em) {
-
+        h1 {
+          font-size: 6em;
+        }
         #page2 {
           font-size: 4em;
           padding-left: 1em;
